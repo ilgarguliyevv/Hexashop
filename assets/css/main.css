@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  height: 100px;
+}
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+  cursor: pointer;
+}
+
+footer {
+  max-width: 100%;
+  height: 480px;
+  background-color: #2a2a2a;
+}
+
+.all-texts {
+  max-width: 1240px;
+  height: 250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.all-texts .first-text {
+  width: 255px;
+  height: 195px;
+}
+.all-texts .second-text {
+  width: 285px;
+  height: 170px;
+}
+.all-texts .third-text {
+  width: 285px;
+  height: 170px;
+}
+.all-texts .four-text {
+  width: 285px;
+  height: 170px;
+}
+.all-texts p {
+  color: #fff;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.all-texts p:hover {
+  cursor: pointer;
+  color: gray;
+  transition: 0.3s;
+}
+.all-texts h4 {
+  color: #fff;
+  font-weight: bold;
+}
+
+.footer-line {
+  width: 85%;
+  height: 1px;
+  background-color: gray;
+  margin-left: 5%;
+}
+
+.finally {
+  margin-top: 50px;
+  text-align: center;
+}
+.finally p {
+  color: #fff;
+}
+.finally .finally-bottom i {
+  width: 13px;
+  height: 22px;
+  color: #fff;
+  margin-right: 20px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.finally .finally-bottom i:hover {
+  color: red;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#hero {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  height: 700px;
+}
+#hero .hexashop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./../images/left-banner-image.jpg);
+  background-size: cover;
+  grid-area: 1/1/span 2/span 2;
+  color: white;
+}
+#hero .women {
+  background-image: url(.././images/baner-right-image-01.jpg);
+  background-size: cover;
+  grid-area: 1/3/span 1/span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+#hero .men {
+  background-image: url(.././images/baner-right-image-02.jpg);
+  background-size: cover;
+  grid-area: 1/4/span 1/span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+#hero .kids {
+  background-image: url(.././images/baner-right-image-03.jpg);
+  background-size: cover;
+  grid-area: 2/3/span 1/span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+#hero .accessories {
+  background-image: url(.././images/baner-right-image-04.jpg);
+  background-size: cover;
+  grid-area: 2/4/span 1/span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.container-1 {
+  max-width: 1070px;
+  height: 100%;
+  margin: 0 auto;
+}
+.container-1 .title-1 {
+  margin: 50px 0;
+}
+.container-1 .textpage {
+  opacity: 40%;
+}
+.container-1 h1 {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.imgs {
+  width: 350px;
+  height: 350px;
+}
+
+.boxs {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.oops {
+  max-width: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mens-latest {
+  position: relative;
+}
+.mens-latest .mens-latest-icons {
+  position: absolute;
+  bottom: 30%;
+  left: 28%;
+}
+.mens-latest .mens-latest-icons:hover i {
+  opacity: 1;
+  bottom: 20%;
+  cursor: pointer;
+}
+.mens-latest .mens-latest-icons i {
+  background-color: #fff;
+  color: #000;
+  padding: 18px;
+  bottom: 0%;
+  left: 50%;
+  opacity: 0;
+  transition: 0.6s;
+}
+
+.content-first {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.all-boxs {
+  margin: 50px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.all-boxs h1 {
+  font-size: 34px;
+  font-weight: bold;
+}
+.all-boxs .leather {
+  width: 263px;
+  height: 263px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.all-boxs .leather p {
+  opacity: 50%;
+}
+.all-boxs .bags-first {
+  width: 263px;
+  max-height: 263px;
+  margin-top: 20px;
+}
+.all-boxs .womenbeatiful {
+  width: 263px;
+  max-height: 263px;
+}
+.all-boxs .different-types {
+  width: 263px;
+  height: 263px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14px;
+}
+.all-boxs .different-types p {
+  opacity: 50%;
+}
+
+.pages-text p {
+  max-width: 510px;
+  margin: 15px 0px;
+  opacity: 50%;
+}
+.pages-text .different-text {
+  opacity: 100%;
+}
+.pages-text .different-text i {
+  margin-right: 10px;
+}
+.pages-text .third-p a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+.pages-text button {
+  width: 144px;
+  height: 45px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+.pages-text button:hover {
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}/*# sourceMappingURL=main.css.map */
